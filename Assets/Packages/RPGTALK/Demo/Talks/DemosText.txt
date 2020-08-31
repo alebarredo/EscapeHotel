@@ -1,0 +1,230 @@
+[title=G_RAFF]
+Hey, what's up, bro? I'm G-RAFF but you can call me G... *BURP*
+Sorry, i think that was too much beer, i can't get enough these days... *sad*
+But then i just come see the brightness of the moon and honor it with my DANCE!
+How did you manage to get in here anyway?
+
+HUH? How bout' that!
+You think you can DANCE?!?!
+I bet you can't move like this.
+
+[title=Dancer_2]
+Hey, did you hear about the new member joining the clan?
+They say it's a she...
+Shhhh! SPOILER ALERT!!!
+We don't talk about that here, you animal. Who's this "greeny" anyway?
+
+[title=Dancer_3]
+You wanna know how i became a Macabra?
+Yo, look at this move, y'all!
+THIS IS HOW!!!
+Woooheee!!! I'M TRIPPIN'
+
+[title=Pool_Wasted]
+*GAK* my belly...
+... LEAVE ME!!!
+*BURP!*
+. .. alone...
+AVAILABLE DIALOGUE
+
+[title=STAIRS_GUARD]
+No can do, my green friend.
+Floor 2 is members-only.
+
+[title=WAREHOUSE_GUARD]
+Woah! Stop right there, little man. This is a resctricted area. 
+Who let you in here anyway?
+
+[title=G_RAFF_CARE]
+WHOA!!! What happened to your leg, bro?!?!
+What? Your girl Betty is missing???
+Damn, well... i wish i knew something about anything.
+Macabras only talk business to me.
+I just move their product. That's it.
+They trust me just because i'm too tall to sniff around their madhouse.
+I can't help you...
+... but i know someone who can.
+...pssst FOLLOW ME.
+
+[title=GALLERY]
+Stay TRUE
+Make him proud!
+MAC!
+ABRA!
+
+[title=SIDE_GUARD]
+Hey stranger! This is private property. 
+Take your business elsewhere.
+I said BEAT IT!!!
+Don't make me say it again!
+---
+What was that?
+It better not be that green insect.
+
+A few hours later...
+BETTY!!!
+Where are you!???
+
+[title=TRESPASS]
+It's ok to be confused with all that is happening.
+That van that hit you on the road were the MacaBros. 
+They're the worst scum among the MACABRA clan.
+The clan... well, it all started a long time ago...
+... at ROOM 0...
+... with one particular guest...
+Nobody ever guessed he...
+
+[title=LFG]
+G-RAFF!!!
+Where's that damn giraffe when you need it!???
+
+[title=SCARED-G]
+Oh no!
+That guard's looking for me
+... again.
+You go! 
+Find Ol-D... tell him i sent you.
+I'll come back for you!
+
+
+[title=OLDIE]
+God damn, G.
+Not again... 
+That kid needs to stop chasing rainbows.
+Trust me! It's different with this one, D.
+Man... that leg looks pretty bad...
+Oh, what the hell. He'll end up as one of them either way...
+... one more won't make any difference.
+Don't worry, I already told em' he's with workin' with me.
+I'll get him in there, so he can find out what happened to his girl.
+I believe we both know the answer to that question, G.
+Hang in there, buddy!
+[title=PoolTable]
+So you wanna be one of us, huh?
+You’ll have to beat Macabro on the dance floor. 
+Hahahaaa… this guy? 
+Look at him, he doesn’t stand a chance.
+
+[title=DanceHero-Intro]
+Well… well… well…
+Look at what we got here!
+FRESH MEAT!
+Show me what you got, little man.
+If you got any…
+DANCE
+OFF!
+[title=DanceHero-Rock]
+DAMN IT!
+Welcome to the clan, bro.
+You are one of us now.
+
+[title=DanceHero-Suck]
+HAHAHA! I RULE!
+YOU SUCK!
+Now... get the hell outta here!
+
+[title=Baptism]
+HELLO, ElvisVonTrapp.
+Elvis Von Trapp
+That was the last time you’ll answer to that name…
+HATRED
+The only feeling left within your soul…
+You are a MACABRA. You’re part of the family now.
+You go out there, and make us proud.
+... because Mother is always watching...
+
+[title=STAIRS_GUARD-Free]
+We have a new member joining the gang!
+Ohhh! That's my song!
+YAY! So happy!!!
+
+[title=NIGHTMARE]
+"HI, Elvis…"
+"This… is… Betty."
+"I just want you to know that… us…"
+"WE ARE OVER"
+"Just leave me alone..."
+"...go back home, you STULLE"
+
+[title=GRAFF-Extension]
+Yo, Elvis! Nice to see you again, bro!
+I see you're a Macabra now.
+I guess that means Betty didn't show up yet.
+Well, now that you're one of them you can access the console back there.
+You can open that big generator thing...
+but... you'll need to enter the combination.
+I heard Macabras talking about that inside the house.
+You should go find out and...
+HURRY!!!
+That mask you are wearing corrupts your mind over time.
+
+[title=PoolGuard]
+HEY! Where do you think you're going?!?!
+I see you're a one of us now.
+You better stay TRUE or stay DEAD.
+
+[title=PoolGuard]
+Hey! Nothing to see there...
+Just drink Macabras and... DANCE!
+
+[title=BAT]
+Whooooa...
+... just look at this thing!
+I think we'll become close friends with this baby.
+I'll show Macabras who they messed with.
+I'll get every one of them...
+for taking Betty!
+Prepare yourselves Macabras!!!
+Because HERE I COME!
+HA!
+HAHA!
+HAHAHA!!!
+HAAAA HAAAA HAAAA!!!!
+
+[title=GRAFF-POST]
+Bro! Thank god you're alive...
+... and you have a bat?!? Wow, that mask is kickin' in already.
+Go put that combination in the generator beneath Black Lotus's sign.
+But be careful...
+Macabras are already looking for you.
+I tried to cover you up but you got too much heat.
+Just... don't get captured alive...
+---
+C'mon, Elvis! My life's at stake too!
+We can do this... 
+for BETTY!!!
+Now go and input that combination on the generator.
+Be careful, bro!
+---
+He's green, he just wears boots and a leopard thong.
+Father wants him... dead or alive...
+Macabras don't miss! Remember that!
+MAKE HIM PROUD!
+
+Hey, what's up, bro? 
+I'm G-RAFF but you can call me G... *BURP*
+Sorry, i think that was too much beer... 
+... i can't get enough these days... *sad*
+But then i just come see the brightness of the moon and honor it with my DANCE!
+How did you manage to get in here anyway?
+
+Hey look! What do think of this one?
+That little one?
+YEAAAH! You can do it, green fella!
+I'd leave now if i were you...
+
+
+[title=MACABRAS-POST-BAPTISM]
+Hello Macabra, welcome to the family...
+Hey! You're the newcomer, right? 
+Go check out the laptop behind you...
+You beat Macabro on the floor? So i guess that makes you one of us now... 
+Do you know what happens to the ones that don't fit? 
+Nevermind...
+
+
+[title=Baptism-2]
+Don't look back for past memories...
+... that will only get you hurt...
+... embrace your new self...
+MACABRA until the end!!!

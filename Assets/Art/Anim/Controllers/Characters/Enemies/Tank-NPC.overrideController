@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tank-NPC
+  m_Controller: {fileID: 9100000, guid: 2d9855237e8a94f35823c3a2c13c34f8, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 962f55753bb9c4886b7a7db5c1d2ae81, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 81839a415fa074895a2572ff3c77fc7d, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 9de3cce861ea849cda5b7438503973b5, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: e8e37c4807caf40db9894e53cf255a86, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: f30a4ae34ef4148e19e3d386a85d6b44, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: e46bcb71188674b79b7c1a69e5944af8, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 74d607c13fd52429992a46d7d32212c4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 54b0dbc6f5ba24c04b04eae07cfb991c, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 25468df9e6b094d55b870402598314f1, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 733d41ad42e2843c8890fd2ae6061910, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 43b52587365294ca3a78eccf2ed03a82, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: a34f72272a72b474a830f450e6ba2b3f, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 0ac104c08339548d89819af39250f4c2, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 547fcfce185434162818437d66a52373, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 2d999740414ee40d4ac3b9e8800608d0, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 7b5d7a141d7334a5f9760a2ac7460cb1, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 8f261b7b080f445cbaca62dc86492c84, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 5055bba64d7884d3fb6ac771e05abd63, type: 3}

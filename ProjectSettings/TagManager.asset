@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CamObstacle
+  - GeneratorButton
+  - lockTag
+  - Examinable
+  - SpawnPoints
+  - Respawner
+  - Bottle
+  - Silvi
+  - Sebas
+  - Bathroom
+  - Ale
+  - Mapa
+  - Switch
+  - scrollRotator
+  - clicker
+  - CardSlot
+  - KeyCard
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Interactable
+  - Level
+  - Ground
+  - Hotel
+  - HotelFloor
+  - Underground
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
