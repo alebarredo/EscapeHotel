@@ -2542,6 +2542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7151152388768140193}
   - component: {fileID: 7151152388768140862}
+  - component: {fileID: 395363865246081495}
   m_Layer: 15
   m_Name: Camera_Holder
   m_TagString: Untagged
@@ -2629,13 +2630,13 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    runTransitionDuration: 0.25
+    runTransitionDuration: 1
     runReturnTransitionDuration: 0.1
   cameraSway:
-    swayAmount: 0.5
-    swaySpeed: 0.5
+    swayAmount: 0.25
+    swaySpeed: 2
     returnSpeed: 1
-    changeDirectionMultiplier: 2
+    changeDirectionMultiplier: 1.5
     swayCurve:
       serializedVersion: 2
       m_Curve:
@@ -2664,6 +2665,22 @@ MonoBehaviour:
   smoothAmount: {x: 20, y: 20}
   lookAngleMinMax: {x: -60, y: 60}
   m_cam: {fileID: 0}
+--- !u!114 &395363865246081495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7151152388768139965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07db5cf035c12fc4ea2fb53cfaca9e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 597a28d614f0e2a449871720112bf46b, type: 2}
+  x: 1
+  y: 0
+  z: 0
 --- !u!1 &7151152388768139966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,7 +2705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7151152388768139966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.566, z: 0.5}
+  m_LocalPosition: {x: 0, y: 1.537, z: 0.598}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7151152388768140207}
@@ -2770,13 +2787,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementInputData: {fileID: 11400000, guid: abad080c0665fdc4cb00444da1f990a9, type: 2}
   headBobData: {fileID: 11400000, guid: fd51ede42cc20a04da93c2d2fac1e05c, type: 2}
-  crouchSpeed: 1
-  walkSpeed: 3
-  runSpeed: 5
-  jumpSpeed: 4
-  moveBackwardsSpeedPercent: 0.8
-  moveSideSpeedPercent: 1
-  canRunThreshold: 0.7
+  crouchSpeed: 2
+  walkSpeed: 5
+  runSpeed: 8
+  jumpSpeed: 6
+  moveBackwardsSpeedPercent: 0.25
+  moveSideSpeedPercent: 0.5
+  canRunThreshold: -1
   runTransitionCurve:
     serializedVersion: 2
     m_Curve:
@@ -2827,8 +2844,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  lowLandAmount: 0.222
-  highLandAmount: 0.685
+  lowLandAmount: 0.25
+  highLandAmount: 0.75
   landTimer: 0.5
   landDuration: 0.5
   landCurve:
@@ -2864,13 +2881,13 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  gravityMultiplier: 1.5
+  gravityMultiplier: 1
   stickToGroundForce: 0.5
   groundLayer:
     serializedVersion: 2
     m_Bits: 10240
-  rayLength: 0.1
-  raySphereRadius: 0.2
+  rayLength: 0.2
+  raySphereRadius: 0.3
   obstacleLayers:
     serializedVersion: 2
     m_Bits: 1024
@@ -2885,24 +2902,24 @@ MonoBehaviour:
   smoothInputMagnitudeSpeed: 5
   m_inputVector: {x: 0, y: 0}
   m_smoothInputVector: {x: 0, y: 0}
-  m_finalMoveDir: {x: 0, y: 0, z: 0}
+  m_finalMoveDir: {x: -0, y: 0, z: 0}
   m_smoothFinalMoveDir: {x: 0, y: 0, z: 0}
-  m_finalMoveVector: {x: 0, y: 0, z: 0}
+  m_finalMoveVector: {x: 0, y: -0.5, z: 0}
   m_currentSpeed: 0
   m_smoothCurrentSpeed: 0
   m_finalSmoothCurrentSpeed: 0
-  m_walkRunSpeedDifference: 0
-  m_finalRayLength: 0
+  m_walkRunSpeedDifference: 2
+  m_finalRayLength: 0.85999995
   m_hitWall: 0
-  m_isGrounded: 0
-  m_previouslyGrounded: 0
-  m_initHeight: 0
-  m_crouchHeight: 0
-  m_initCenter: {x: 0, y: 0, z: 0}
-  m_crouchCenter: {x: 0, y: 0, z: 0}
+  m_isGrounded: 1
+  m_previouslyGrounded: 1
+  m_initHeight: 1.3
+  m_crouchHeight: 0.78000003
+  m_initCenter: {x: 0, y: 0.65999997, z: 0.2}
+  m_crouchCenter: {x: 0, y: 0.4, z: 0}
   m_initCamHeight: 0
-  m_crouchCamHeight: 0
-  m_crouchStandHeightDifference: 0
+  m_crouchCamHeight: -0.5199999
+  m_crouchStandHeightDifference: 0.5199999
   m_duringCrouchAnimation: 0
   m_duringRunAnimation: 0
   m_inAirTimer: 0

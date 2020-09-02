@@ -17,29 +17,21 @@ public class DoorInteract : MonoBehaviour
     public string unlockedTooltip = "open";
     public string lockedTooltip = "it's locked";
 
-    public CinemachineVirtualCamera lockCam;
-
     public EventInteractable[] eventInteractables;
-    private int oldMask;
 
     private void Start()
     {
         audio = GetComponent<AudioSource>();
-        oldMask = Camera.main.cullingMask;
     }
 
     public void InteractDoor()
     {
-
         if (locked)
         {
             foreach (var eventInteractable in eventInteractables)
             {
                 eventInteractable.tooltipMessage = lockedTooltip;
             }
-
-            CamOn();
-
         }
         else
         {
@@ -51,43 +43,6 @@ public class DoorInteract : MonoBehaviour
             anim.SetBool("Open", true);
             audio.PlayOneShot(openSound);
             StartCoroutine(Close());
-
-            CamOff();
-
-        }
-    }
-
-    private void Update()
-    {
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    lockCam.Priority = 0;
-        //    Cursor.lockState = CursorLockMode.Locked;
-        //    Cursor.visible = false;
-        //    Camera.main.cullingMask = oldMask | (1 << 15);
-        //}
-    }
-
-    void CamOn()
-    {
-        if (lockCam != null)
-        {
-            lockCam.Priority = 11;
-            Cursor.lockState = CursorLockMode.Confined;
-            Cursor.visible = true;
-            Camera.main.cullingMask = oldMask & ~(1 << 15);
-        }
-    }
-
-    void CamOff()
-    {
-        if (lockCam != null)
-        {
-            lockCam.Priority = 0;
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
-            Camera.main.cullingMask = oldMask | (1 << 15);
-
         }
     }
 
@@ -98,8 +53,6 @@ public class DoorInteract : MonoBehaviour
         anim.SetBool("Open", true);
         audio.PlayOneShot(openSound);
         StartCoroutine(Close());
-
-        CamOff();
     }
 
     public IEnumerator Close()
@@ -109,14 +62,14 @@ public class DoorInteract : MonoBehaviour
         audio.PlayOneShot(closeSound);
     }
 
-    public IEnumerator OnTriggerExit(Collider c)
-    {
-        yield return new WaitForSeconds(timer);
+    //public IEnumerator OnTriggerExit(Collider c)
+    //{
+    //    yield return new WaitForSeconds(timer);
 
-        if (c.tag == "Player")
-        {
-            anim.SetBool("Open", false);
-            audio.PlayOneShot(closeSound);
-        }
-    }
+    //    if (c.tag == "Player")
+    //    {
+    //        anim.SetBool("Open", false);
+    //        audio.PlayOneShot(closeSound);
+    //    }
+    //}
 }

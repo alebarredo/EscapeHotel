@@ -32,7 +32,7 @@ public class Spawner : MonoBehaviourPun
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Respawner"))
+        if (other.gameObject.tag == "Respawner")
         {
             gameObject.transform.position = gameManager.spawner[spawnId].transform.position;
         }

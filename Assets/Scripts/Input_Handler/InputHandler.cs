@@ -12,15 +12,6 @@ public class InputHandler : MonoBehaviourPun
     [SerializeField] private PickableInputData pickableInputData = null;
     #endregion
 
-    #region CustomInput
-    //public string interactedClicked;
-    //public string interactedReleased;
-    //public string interactedPickClicked;
-    //public string interactedPickHold;
-    //public string interactedPickRelease;
-
-    #endregion
-
     #region BuiltIn Methods
     void Start()
     {
@@ -50,7 +41,6 @@ public class InputHandler : MonoBehaviourPun
         interactionInputData.InteractedReleased = Input.GetKeyUp(KeyCode.E);
         pickableInputData.PickClicked = Input.GetMouseButtonDown(0);
         pickableInputData.PickReleased = Input.GetMouseButtonDown(1);
-
         pickableInputData.PickHold = Input.GetKeyDown(KeyCode.E);
     }
 

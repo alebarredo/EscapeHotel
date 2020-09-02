@@ -12,19 +12,20 @@ public class ColorLock : MonoBehaviour
     public int goodDigit_3;
 
     private int[] digit;
-
     private float angleStep = 60f;
 
     public UnityEvent Unlocked;
     public DoorInteract doorInteract;
 
     public string roomLock;
-    //public CinemachineVirtualCamera lockCam;
+    public CinemachineVirtualCamera lockCam;
+    private int oldMask;
 
     void Start()
     {
         digit = new int[4];
         roomLock = gameObject.tag;
+        oldMask = Camera.main.cullingMask;
 
         Randomize();
     }
@@ -42,6 +43,29 @@ public class ColorLock : MonoBehaviour
         {
             StartCoroutine("digitRotate");
         }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            StartCoroutine("exitLock");
+        }
+    }
+
+    IEnumerator exitLock()
+    {
+
+        CamOff();
+
+        //RaycastHit hit;
+        ////Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+
+        //if (Physics.Raycast(ray, out hit) && hit.collider.tag == "lockTag")
+        //{
+        //    CamOff();
+        //}
+
+        yield return null;
+
     }
 
     IEnumerator digitRotate()
@@ -79,6 +103,7 @@ public class ColorLock : MonoBehaviour
                 {
                     Unlocked.Invoke();
                     doorInteract.locked = false;
+                    CamOff();
                 }
 
                 Debug.Log(digit[digitNumber]);
@@ -88,5 +113,27 @@ public class ColorLock : MonoBehaviour
 
         yield return null;
 
+    }
+
+    public void CamOn()
+    {
+        if (lockCam != null)
+        {
+            lockCam.Priority = 11;
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
+            Camera.main.cullingMask = oldMask & ~(1 << 15);
+        }
+    }
+
+    public void CamOff()
+    {
+        if (lockCam != null)
+        {
+            lockCam.Priority = 0;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            Camera.main.cullingMask = oldMask | (1 << 15);
+        }
     }
 }

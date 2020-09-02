@@ -14,12 +14,8 @@ GameObject:
   - component: {fileID: 5519043972934549478}
   - component: {fileID: -524017129264778502}
   - component: {fileID: 3774297360910003612}
-  - component: {fileID: 1994534126}
-  - component: {fileID: 1994534127}
   - component: {fileID: 1411959376}
   - component: {fileID: 1621632825}
-  - component: {fileID: 8689516136345610868}
-  - component: {fileID: 1314628138197008104}
   m_Layer: 9
   m_Name: BeerBottle
   m_TagString: Bottle
@@ -144,31 +140,6 @@ MonoBehaviour:
   m_SynchronizePosition: 1
   m_SynchronizeRotation: 1
   m_SynchronizeScale: 0
---- !u!114 &1994534126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5519043972934549476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d56ef8074a2f54657a426840fe8e5f5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collisionMagnitude: 1
---- !u!114 &1994534127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5519043972934549476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3898c583975064744850e3452a7e1673, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1411959376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,34 +172,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltip: 
   tooltipTransform: {fileID: 0}
---- !u!114 &8689516136345610868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5519043972934549476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: 1
-  eraseRenderer: 0
-  originalLayer: 0
-  originalMaterials: []
---- !u!114 &1314628138197008104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5519043972934549476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72b3f4c374d0ba47824d73874ac6fd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5519043974359643533
 GameObject:
   m_ObjectHideFlags: 0
