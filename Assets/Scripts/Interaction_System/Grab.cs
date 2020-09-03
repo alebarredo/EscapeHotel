@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Photon.Pun;
 
-public class Grab : Pickable
+public class Grab : Pickable, IPunObservable
 {
     public float throwForce = 100;
     //public Vector3 objectOffset;
@@ -57,6 +58,24 @@ public class Grab : Pickable
         gameObject.GetComponent<Rigidbody>().useGravity = false;
         gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, Camera.main.transform.position + Camera.main.transform.forward * distance, Time.deltaTime * smoothing);
         //gameObject.transform.rotation = Quaternion.identity;
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if (stream.IsWriting)
+        {
+            // We own this player: send the others our data
+            stream.SendNext(Rigid.isKinematic);
+            stream.SendNext(Rigid.useGravity);
+            stream.SendNext(Picked);
+        }
+        else
+        {
+            // Network player, receive data
+            Rigid.isKinematic = (bool)stream.ReceiveNext();
+            Rigid.useGravity = (bool)stream.ReceiveNext();
+            Picked = (bool)stream.ReceiveNext();
+        }
     }
 
     //private void OnCollisionEnter(Collision other)

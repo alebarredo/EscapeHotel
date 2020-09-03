@@ -82,6 +82,10 @@ MonoBehaviour:
   - {fileID: 2453541494568873690}
   - {fileID: 5009267903170750244}
   spawnIndex: 0
+  menu: {fileID: 0}
+  roomCodeCanvas: {fileID: 0}
+  roomSelectCanvas: {fileID: 0}
+  laptopCam: {fileID: 0}
 --- !u!1 &239107758
 GameObject:
   m_ObjectHideFlags: 0

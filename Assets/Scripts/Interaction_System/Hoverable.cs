@@ -6,8 +6,8 @@ using NaughtyAttributes;
 public class Hoverable : MonoBehaviour, IHoverable
 {
 
-    [BoxGroup("Settings")] public string tooltip;
-    [BoxGroup("Settings")] public Transform tooltipTransform;
+    //[BoxGroup("Settings")] public string tooltip;
+    //[BoxGroup("Settings")] public Transform tooltipTransform;
 
     private Material m_myMat;
     public Material MyMaterial => m_myMat;
@@ -15,13 +15,13 @@ public class Hoverable : MonoBehaviour, IHoverable
     private MeshRenderer m_meshRenderer;
     private MeshRenderer MeshRenderer => m_meshRenderer;
 
-    public string Tooltip
-    {
-        get => tooltip;
-        set => tooltip = value;
-    }
+    //public string Tooltip
+    //{
+    //    get => tooltip;
+    //    set => tooltip = value;
+    //}
 
-    public Transform TooltipTransform => tooltipTransform;
+    //public Transform TooltipTransform => tooltipTransform;
 
 
     protected virtual void Awake()
